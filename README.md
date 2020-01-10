@@ -12,7 +12,7 @@ The main idea of this project is to develop a simple but functional alarm platfo
 That is an unambitious project. The focus is to relax and to learn something.
 
 # Hardware
-Espressif TTGO T-Call V1.3 ESP32
+[Espressif TTGO T-Call V1.3 ESP32](https://github.com/Xinyuan-LilyGO/TTGO-T-Call)
 433MHz transmitter and receiver
 Commercial alarm sensors
 
@@ -36,8 +36,18 @@ Commercial alarm sensors
 - Pair new actuators functionality
 - Transmit commands over 433,92MHz
 
-# Development IDE
-- [Eclipse Plugin](https://github.com/espressif/idf-eclipse-plugin/blob/master/README.md)
+# Development environment
 
-# Board Driver
-- [Silabs](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+- Step 1 - [Install prerequisites](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/macos-setup.html#install-prerequisites)
+
+- Step 2 - [Get ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-2-get-esp-idf)
+
+- Step 3 - [Set up tools](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-3-set-up-the-tools)
+
+- Step 4 - export IDF_PATH=/Users/fabiotomio/esp/esp-idf
+
+- Step 5 - [Eclipse Plugin](https://github.com/espressif/idf-eclipse-plugin/blob/master/README.md)
+
+- Step 6 - [Silabs](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+
+- Step 7 - [Configure project on Eclipse IDE](https://www.youtube.com/watch?v=5ASx6QN5VOA)
