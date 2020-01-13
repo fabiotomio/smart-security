@@ -44,10 +44,10 @@ Commercial alarm sensors
 
 - Step 3 - [Set up tools](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-3-set-up-the-tools)
 
-- Step 4 - export IDF_PATH=/Users/fabiotomio/esp/esp-idf
+- Step 4 - export IDF_PATH=~/esp/esp-idf
 
 - Step 5 - [Eclipse Plugin](https://github.com/espressif/idf-eclipse-plugin/blob/master/README.md)
 
-- Step 6 - [Silabs](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+- Step 6 - [USB Driver - Silabs](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 - Step 7 - [Configure project on Eclipse IDE](https://www.youtube.com/watch?v=5ASx6QN5VOA)
