@@ -68,3 +68,6 @@ make flash
 ```
 make monitor
 ```
+
+# References
+- [HT6P20B](https://acturcato.wordpress.com/2013/12/20/decodificador-para-o-encoder-ht6p20b-em-arduino/)

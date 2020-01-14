@@ -11,4 +11,11 @@ menu "Example Configuration"
 
             GPIOs 35-39 are input-only so cannot be used as outputs.
 
+    config SCAN_LIST_SIZE
+        int "Wifi scan list size"
+        range 1 50
+        default 20
+        help
+            Size of the wifi list
+
 endmenu
