@@ -59,15 +59,23 @@ make menuconfig
 make all
 ```
 
+## Auto Building
+```
+./watcher.sh
+```
+
 ## Flash
 ```
 make flash
 ```
 
-# Serial monitor
+## Serial monitor
 ```
 make monitor
 ```
+#### Serial exit
+control + ]
+
 
 # References
 - [HT6P20B](https://acturcato.wordpress.com/2013/12/20/decodificador-para-o-encoder-ht6p20b-em-arduino/)
