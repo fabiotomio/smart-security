@@ -53,6 +53,7 @@ Commercial alarm sensors
 ```
 make menuconfig
 ```
+**Note:** During PPP setup, we should specify the way of authentication negotiation. By default it's configured to `PAP`. You can change to others (e.g. `CHAP`) in `Component config-->LWIP-->Enable PPP support` menu.
 
 ## Build
 ```
