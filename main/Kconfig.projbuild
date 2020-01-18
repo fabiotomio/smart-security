@@ -1,20 +1,36 @@
-menu "Example Configuration"
+menu "System configurations"
 
     config BLINK_GPIO
         int "Blink GPIO number"
         range 0 34
-        default 23
+        default 13
         help
             GPIO number (IOxx) to blink on and off.
-
             Some GPIOs are used for other purposes (flash connections, etc.) and cannot be used to blink.
-
             GPIOs 35-39 are input-only so cannot be used as outputs.
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "smart-system"
+        help
+            SSID (network name) for the example to connect to.
+
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "-"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+
+    config WIFI_MAX_STA_CONN
+        int "Maximal STA connections"
+        default 1
+        help
+            Maximal connected stations
 
     config SCAN_LIST_SIZE
         int "Wifi scan list size"
         range 1 50
-        default 20
+        default 10
         help
             Size of the wifi list
 

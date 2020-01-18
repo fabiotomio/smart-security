@@ -7,6 +7,7 @@
 #include "sdkconfig.h"
 
 #include "wifi/scan.c"
+#include "wifi/access_point.c"
 
 /* Can run 'make menuconfig' to choose the GPIO
 */
@@ -25,17 +26,22 @@ void app_main()
     }
     ESP_ERROR_CHECK( ret );
 
-    wifi_scan();
+    // Switchin wifi mode
+    if (false) {
+        wifi_scan();
+    } else {
+        wifi_init_softap();
+    }
 
     while(1) {
         // Blink off (output low)
-        // printf("Turning off the LED\n");
+        printf("Turning off the LED\n");
         gpio_set_level(BLINK_GPIO, 0);
-        vTaskDelay(50 / portTICK_PERIOD_MS);
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
 
         // Blink on (output high) */
-        // printf("Turning on the LED\n");
+        printf("Turning on the LED\n");
         gpio_set_level(BLINK_GPIO, 1);
-        vTaskDelay(50 / portTICK_PERIOD_MS);
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 }

@@ -111,11 +111,14 @@ CONFIG_ESPTOOLPY_MONITOR_BAUD=115200
 # end of Serial flasher config
 
 #
-# Example Configuration
+# System configurations
 #
-CONFIG_BLINK_GPIO=23
-CONFIG_SCAN_LIST_SIZE=20
-# end of Example Configuration
+CONFIG_BLINK_GPIO=13
+CONFIG_WIFI_SSID="smart-system"
+CONFIG_WIFI_PASSWORD="----------"
+CONFIG_WIFI_MAX_STA_CONN=1
+CONFIG_SCAN_LIST_SIZE=10
+# end of System configurations
 
 #
 # Partition Table
