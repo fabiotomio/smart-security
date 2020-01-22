@@ -12,9 +12,9 @@ The main idea of this project is to develop a simple but functional alarm platfo
 That is an unambitious project. The focus is to relax and to learn something.
 
 # Hardware
-[Espressif TTGO T-Call V1.3 ESP32](https://github.com/Xinyuan-LilyGO/TTGO-T-Call)
-433MHz transmitter and receiver
-Commercial alarm sensors
+- [Espressif TTGO T-Call V1.3 ESP32](https://github.com/Xinyuan-LilyGO/TTGO-T-Call)
+- 433MHz transmitter and receiver modules
+- Commercial alarm sensors
 
 # RF
 - Wifi
@@ -26,15 +26,22 @@ Commercial alarm sensors
 - HTTP
 
 # Roadmap
+## 1
+- Wifi scan ✅
+- Wifi AP ✅
+- Attach 433,92MHz receiver module ✅
 - API Base + Wifi setup
 - MQTT + Google Cloud IoT over Wifi
-- GSM + GPRS (connection priority and automatic interchange)
-- Attach 433,92MHz receiver module
 - Pair new sensor functionality (ENCODER HT6P20B)
 - Fire events from the sensor to cloud
+
+## 2
 - Attach 433,92MHz transmitter module
 - Pair new actuators functionality
 - Transmit commands over 433,92MHz
+
+## 3
+- GSM + GPRS (connection priority and automatic interchange)
 
 # Development environment
 
@@ -76,4 +83,5 @@ make monitor
 (To exit the serial monitor, type ``Ctrl-]``.)
 
 # References
+- [esp32 examples](https://github.com/espressif/esp-idf/tree/master/examples)
 - [433](https://github.com/DominikPalo/esp32-rf-receiver)
