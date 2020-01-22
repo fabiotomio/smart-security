@@ -76,4 +76,4 @@ make monitor
 (To exit the serial monitor, type ``Ctrl-]``.)
 
 # References
-- [HT6P20B](https://acturcato.wordpress.com/2013/12/20/decodificador-para-o-encoder-ht6p20b-em-arduino/)
+- [433](https://github.com/DominikPalo/esp32-rf-receiver)
